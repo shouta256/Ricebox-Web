@@ -5,7 +5,7 @@ export const Footer = () => {
   return (
     <footer className={styles.Footer}>
       <div className={styles.main}>
-        <img className={styles.logo} src="textLogo.png"></img>
+        <img className={styles.logo} src="textLogo.PNG"></img>
         <div className={styles.links}>
           <Link className={styles.link} href="./about">
             About
