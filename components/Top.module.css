@@ -1,0 +1,9 @@
+.body {
+  margin: 7vh;
+  text-align: center;
+}
+
+.message {
+  color: black;
+  font-size: 5vw;
+}
