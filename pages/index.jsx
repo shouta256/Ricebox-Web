@@ -1,13 +1,15 @@
 import { Header } from "components/Header";
-import styles from "@/styles/Home.module.css";
+import styles from "styles/Home.module.css";
 import { Footer } from "components/Footer";
 import Head from "next/head";
 import { Top } from "components/Top";
 import { Topic } from "components/Topic";
+import { News } from "components/News";
 
 export default function Home() {
-  const multilineText =
-    "すべての人に無駄なく\nより安く、より良い\n商品を届ける";
+  const Pharase = "すべての人に無駄なく\nより安く、より良い\n商品を届ける";
+  const aboutDescription = "Riceboxの成り立ち、\n事業内容、業績を紹介";
+  const serviceDescription = "Riceboxのサービスに\nついて詳しく紹介";
 
   return (
     <>
@@ -19,8 +21,12 @@ export default function Home() {
       </Head>
 
       <Header />
-      <Top title={multilineText} />
-      <Topic />
+      <Top title={Pharase} />
+      <div className={styles.topics}>
+        <Topic title={"About"} description={aboutDescription} />
+        <Topic title={"Service"} description={serviceDescription} />
+      </div>
+      <News />
       <Footer />
     </>
   );
