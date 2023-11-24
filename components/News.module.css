@@ -1,0 +1,17 @@
+.body {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.news {
+  width: 100%;
+}
+
+.newsContainer {
+  margin: 0 100px;
+  width: 100%;
+}
+
+.newsItem {
+  margin-right: 30px;
+}
