@@ -3,8 +3,12 @@ import styles from "@/styles/Home.module.css";
 import { Footer } from "components/Footer";
 import Head from "next/head";
 import { Top } from "components/Top";
+import { Topic } from "components/Topic";
 
 export default function Home() {
+  const multilineText =
+    "すべての人に無駄なく\nより安く、より良い\n商品を届ける";
+
   return (
     <>
       <Head>
@@ -15,7 +19,8 @@ export default function Home() {
       </Head>
 
       <Header />
-      <Top />
+      <Top title={multilineText} />
+      <Topic />
       <Footer />
     </>
   );
