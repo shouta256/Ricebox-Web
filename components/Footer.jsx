@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const Footer = () => {
   return (
-    <footer className={styles.Footer}>
+    <div className={styles.Footer}>
       <div className={styles.main}>
         <img className={styles.logo} src="textLogo.PNG"></img>
         <div className={styles.links}>
@@ -21,6 +21,6 @@ export const Footer = () => {
       </div>
 
       <p className={styles.copyRight}>Copyright@Ricebox</p>
-    </footer>
+    </div>
   );
 };

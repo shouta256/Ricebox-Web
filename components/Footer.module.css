@@ -1,43 +1,39 @@
-/* components/Footer.module.css */
-
 .Footer {
-  position: fixed;
-  bottom: 0;
   width: 100%;
-  background-color: #f1f1f1; /* フッターの背景色を設定 */
-  padding: 15px; /* フッターの余白を設定 */
-  text-align: center; /* テキストを中央揃えにする */
+  text-align: center;
+  height: 100px;
+  margin-bottom: 50px;
 }
 
 .main {
   display: flex;
+  align-items: center; /* 中央に揃える */
+  height: 100%; /* 親要素に対して高さ100% */
 }
 
 .logo {
-  width: 8%; /* ロゴの最大幅を設定（必要に応じて調整） */
+  width: 100px;
   height: auto;
   object-fit: contain;
+  margin-right: 15px; /* ロゴの右に余白を追加 */
 }
 
 .links {
-  align-items: center;
+  width: 100px;
   display: flex;
-  justify-content: center; /* Center the links horizontally */
-  flex-grow: 1; /* Allow the links to take up available space */
+  justify-content: center; /* リンクを中央に配置 */
+  flex-grow: 1; /* ロゴとリンクの間のスペースを埋める */
 }
 
 .link {
-  /* margin: 0 15px; Add space on both sides of the link */
   text-decoration: none;
   color: #333;
+  margin: 0 120px;
   font-size: medium;
   font-size: var(--small-font);
 }
 
-.link:not(:last-child) {
-  margin-right: 15%; /* Set the space between links to 100px except for the last one */
-}
 .copyRight {
-  margin: 50px 30px 30px 50px;
+  margin-right: 15px;
   text-align: right;
 }
