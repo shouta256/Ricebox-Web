@@ -26,7 +26,8 @@
 }
 
 body {
-  color: white;
+  background-color: white;
+  color: black;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     Helvetica, Arial, sans-serif;
   font-size: var(--body);
