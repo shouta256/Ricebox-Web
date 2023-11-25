@@ -5,6 +5,7 @@ import Head from "next/head";
 import { Top } from "components/Top";
 import { Topic } from "components/Topic";
 import { News } from "components/News";
+import Link from "next/link";
 
 export default function Home() {
   const Pharase = "すべての人に無駄なく\nより安く、より良い\n商品を届ける";
@@ -23,10 +24,23 @@ export default function Home() {
       <Header />
       <Top title={Pharase} />
       <div className={styles.topics}>
-        <Topic title={"About"} description={aboutDescription} />
-        <Topic title={"Service"} description={serviceDescription} />
+        <Topic
+          page={"/about"}
+          imageName={"logo.jpg"}
+          title={"About"}
+          description={aboutDescription}
+        />
+
+        <Topic
+          page={"/service"}
+          imageName={"logo.jpg"}
+          title={"Service"}
+          description={serviceDescription}
+        />
       </div>
-      <News />
+      <Link href={"/news"}>
+        <News />
+      </Link>
       <Footer />
     </>
   );
