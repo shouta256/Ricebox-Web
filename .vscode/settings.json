@@ -1,3 +1,4 @@
 {
-  "javascript.preferences.importModuleSpecifier": "non-relative"
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "editor.formatOnSave": false // 保存時の VSCode による 自動整形を無効化
 }
