@@ -5,3 +5,7 @@
 .image {
   width: 100%;
 }
+
+.description {
+  white-space: pre-wrap;
+}
