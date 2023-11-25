@@ -8,6 +8,11 @@
   margin-top: 100px;
   margin-bottom: 40px;
   color: black;
-  font-size: 5vw;
+  font-size: 5.5vw;
+  white-space: pre-wrap;
+}
+
+.description {
+  font-size: 1.8vw;
   white-space: pre-wrap;
 }
