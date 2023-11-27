@@ -13,6 +13,7 @@
 }
 
 .logo {
+  margin-left: 20px;
   width: 100px;
   height: auto;
   object-fit: contain;
@@ -29,12 +30,27 @@
 .link {
   text-decoration: none;
   color: #333;
-  margin: 0 120px;
-  font-size: medium;
-  font-size: var(--small-font);
+  margin: 0 10%;
+  font-size: 2vw;
 }
 
 .copyRight {
   margin-right: 15px;
   text-align: right;
+}
+
+@media (max-width: 800px) {
+  .links {
+  width: 50px;
+  display: flex;
+  justify-content: center; /* リンクを中央に配置 */
+  flex-grow: 1; /* ロゴとリンクの間のスペースを埋める */
+}
+
+.link {
+  text-decoration: none;
+  color: #333;
+  margin: 0 5%;
+  font-size: 20px;
+}
 }

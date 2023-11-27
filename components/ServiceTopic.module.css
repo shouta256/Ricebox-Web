@@ -9,7 +9,7 @@
 }
 
 .description {
-   margin: 10px 150px 50px 5%;
+   margin: 10px 15% 50px 5%;
     font-size: 2vw;
 }
 
@@ -21,4 +21,14 @@
 .merits{
     display: flex;
     justify-content: space-around;
+}
+
+@media (max-width: 800px) {
+    .title{
+        font-size: 4vw;
+    }
+
+    .description {
+        font-size: 3.5vw;
+    }
 }

@@ -11,10 +11,11 @@
 
 .image {
     width: 30%;
+    object-fit: contain;
 }
 
 .text {
-    margin-left: 80px;
+    margin-left: 7%;
 }
 
 .title {
@@ -23,6 +24,7 @@
 
 .description {
     margin-top: 20px;
-    font-size: 30px;
+    margin-right: 5%;
+    font-size: 2vw;
     white-space: pre-wrap;
 }

@@ -38,9 +38,9 @@ export default function Home() {
           description={serviceDescription}
         />
       </div>
-      <Link href={"/news"}>
-        <News />
-      </Link>
+      
+      <News />
+      
       <Footer />
     </>
   );

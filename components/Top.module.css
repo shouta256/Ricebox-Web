@@ -16,3 +16,10 @@
   font-size: 1.8vw;
   white-space: pre-wrap;
 }
+
+@media (max-width: 800px) {
+  .body {
+      margin-bottom: 100px;
+
+  }
+}
