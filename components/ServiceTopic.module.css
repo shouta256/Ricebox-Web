@@ -9,7 +9,7 @@
 }
 
 .description {
-   margin: 10px 150px 50px 5%;
+   margin: 10px 15% 50px 5%;
     font-size: 2vw;
 }
 
@@ -21,4 +21,29 @@
 .merits{
     display: flex;
     justify-content: space-around;
+}
+
+.fadeIn {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
+  }
+  
+  .visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+@media (max-width: 800px) {
+    .body{
+        margin-bottom: 50px;
+    }
+
+    .title{
+        font-size: 4vw;
+    }
+
+    .description {
+        font-size: 3.5vw;
+    }
 }
