@@ -21,7 +21,7 @@ const responsive = {
   },
   mobile: {
     breakpoint: { max: 464, min: 0 },
-    items: 1,
+    items: 3,
   },
 };
 
@@ -58,7 +58,7 @@ export const News = (props) => {
         responsive={responsive}
         ssr={true} // means to render carousel on server-side.
         infinite={true}
-        autoPlay={(props) => (props && props.deviceType !== "mobile") || false}
+        autoPlay={true}
         autoPlaySpeed={3000}
         keyBoardControl={true}
         customTransition="all .5"
