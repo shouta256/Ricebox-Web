@@ -1,5 +1,4 @@
 import { Header } from "components/Header";
-import styles from "styles/About.module.css";
 import { Footer } from "components/Footer";
 import Head from "next/head";
 import { Top } from "components/Top";
@@ -32,7 +31,7 @@ const topicsData = [
 export default function About() {
   const phrase = "Less Waste Less Price";
   const description = "日本では1年間に約2千万トンもの食品が廃棄されている。一方、大学生や高齢者など、お金や時間がなく栄養価の高い食品を食べられない人たちもいる。そしてもう一つ世界で問題になっているのがプラスチック問題。国連よれば、現在少なくとも51兆ものマイクロプラスチックが海に存在していることが報道されている。Riceboxはフードロス・プラスチック問題・高齢化社会・食の貧困を改善することを目的としている。"
-
+  
   return (
     <>
       <Head>
