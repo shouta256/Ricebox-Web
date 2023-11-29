@@ -40,3 +40,13 @@
     opacity: 1;
     transform: translateY(0);
   }
+
+  @media (max-width: 500px) {
+    .title {
+        font-size: 4vw;
+    }
+
+    .description{
+        font-size: 3vw;
+    }
+  }
