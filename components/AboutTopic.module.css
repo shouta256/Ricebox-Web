@@ -1,12 +1,12 @@
 .body {
     display: flex;
     justify-content: space-between;
-    margin: 0 10px 100px 50px;
+    margin: 0 10px 100px 2vw;
 }
 
 .even {
     display: flex;
-    margin-right: 50px;
+    margin-right: 5vw;
 }
 
 .image {
@@ -14,7 +14,7 @@
 }
 
 .text {
-    margin-left: 80px;
+    margin-left: 8vw;
 }
 
 .title {
@@ -23,6 +23,19 @@
 
 .description {
     margin-top: 20px;
-    font-size: 30px;
+    margin-right: 7%;
+    font-size: 2vw;
     white-space: pre-wrap;
 }
+
+
+.fadeIn {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
+  }
+  
+  .visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
