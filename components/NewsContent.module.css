@@ -10,3 +10,9 @@
   font-size: 1.8vw;
   white-space: pre-wrap;
 }
+
+@media (max-width: 500px) {
+  .description{
+    font-size: 3vw;
+  }
+}
