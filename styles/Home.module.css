@@ -1,4 +1,55 @@
-.topics {
-  display: flex;
-  justify-content: space-around;
+.blank{
+  height: calc(400px); 
+  background-color: #9cdaf5 ;
 }
+
+.space {
+  height: 800px;
+  background-color: #9cdaf5 ;
+}
+
+.cg {
+  position: fixed;
+  top: 10%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cg2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-top: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topics {
+    opacity: 0;
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.topicsShow{
+  opacity: 1;
+  position: absolute;
+  top: 20%;
+  left: 0%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  transition: opacity 2s; 
+
+}
+
+
+
