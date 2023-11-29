@@ -76,15 +76,10 @@ export default function Home() {
         
       </div>
       
-<<<<<<< HEAD
      
       <Link href={"/news"}>
         <News />
       </Link>
-=======
-      <News />
-      
->>>>>>> de94dd71d24a04b088b3b7c87b87fe249436a3ea
       <Footer />
     </>
   );
