@@ -1,27 +1,24 @@
 import { Header } from "components/Header";
-import styles from "styles/Home.module.css";
 import { Footer } from "components/Footer";
 import Head from "next/head";
 import { Top } from "components/Top";
-import { Topic } from "components/Topic";
-import { News } from "components/News";
 import { ServiceTopic } from "components/ServiceTopic";
 
 const merits = [
   {
     imageName: "merit1.png",
     description:
-      "消費期限が近い食材を\n使うため材料費を抑え、\n安価な商品を提供",
+      "消費期限が近い食材を使うため材料費を抑え、安価な商品を提供",
   },
   {
     imageName: "merit2.png",
     description:
-      "Riceboxアプリによってお店で\n売れ残っている商品の販売を\n促進。食品廃棄量の削減",
+      "Riceboxアプリによってお店で売れ残っている商品の販売を促進。食品廃棄量の削減",
   },
   {
     imageName: "merit3.png",
     description:
-      "お客さんがマイボックス\nを持参することで容器の\nゴミを削減",
+      "お客さんがマイボックスを持参することで容器のゴミを削減",
   },
 ];
 
@@ -61,7 +58,7 @@ export default function Service() {
         title={"関係性"}
         imageName={"relation.png"}
           />
-          <ServiceTopic title={"Riceboxのメリット"} merits={merits} />
+      <ServiceTopic title={"Riceboxのメリット"} merits={merits} />
       <Footer />
     </>
   );
