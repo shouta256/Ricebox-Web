@@ -3,8 +3,6 @@ import styles from "styles/News.module.css";
 import { Footer } from "components/Footer";
 import Head from "next/head";
 import { Top } from "components/Top";
-import { Topic } from "components/Topic";
-import { News } from "components/News";
 import { NewsContent } from "components/NewsContent";
 import Link from "next/link";
 
