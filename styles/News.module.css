@@ -1,4 +1,3 @@
-
 .block {
   width: 90%;
   margin: 0 auto;
@@ -13,12 +12,27 @@
 }
 
 .schoolLink {
+<<<<<<< HEAD
     position: relative;
     font-size: 1.8vw;
+=======
+  position: relative;
+>>>>>>> de94dd71d24a04b088b3b7c87b87fe249436a3ea
   font-weight: 500;
-  
   color: black;
-  text-decoration:underline;
+  text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+  .block {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .newsContainar {
+    width: 100%;
+    margin-right: 0;
+  }
 }
 
 .fadeIn {
