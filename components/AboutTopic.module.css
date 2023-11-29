@@ -15,11 +15,7 @@
 }
 
 .text {
-<<<<<<< HEAD
     margin-left: 8vw;
-=======
-    margin-left: 7%;
->>>>>>> de94dd71d24a04b088b3b7c87b87fe249436a3ea
 }
 
 .title {
@@ -28,11 +24,7 @@
 
 .description {
     margin-top: 20px;
-<<<<<<< HEAD
     margin-right: 7%;
-=======
-    margin-right: 5%;
->>>>>>> de94dd71d24a04b088b3b7c87b87fe249436a3ea
     font-size: 2vw;
     white-space: pre-wrap;
 }

@@ -23,7 +23,6 @@
     justify-content: space-around;
 }
 
-<<<<<<< HEAD
 .fadeIn {
     opacity: 0;
     transform: translateY(20px);
@@ -40,9 +39,6 @@
         margin-bottom: 50px;
     }
 
-=======
-@media (max-width: 800px) {
->>>>>>> de94dd71d24a04b088b3b7c87b87fe249436a3ea
     .title{
         font-size: 4vw;
     }
