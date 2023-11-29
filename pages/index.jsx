@@ -41,8 +41,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Ricebox</title>
-        <meta name="description" content="すべての人に無駄なく、より安く、より良い商品を届ける" />
+        <title>Riceboxとは</title>
+        <meta name="description" content="無駄なく、より安く、より良く" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <script type="module" async src="https://unpkg.com/@splinetool/viewer@0.9.510/build/spline-viewer.js"></script>
       </Head>
