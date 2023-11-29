@@ -26,10 +26,10 @@
 
 @media (max-width: 500px) {
   .message{
-    font-size: 7vw;
+    font-size: 8vw;
   }
 
   .description{
-    font-size: 3vw;
+    font-size: 4vw;
   }
 }
