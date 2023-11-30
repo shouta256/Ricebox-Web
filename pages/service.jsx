@@ -4,6 +4,27 @@ import Head from "next/head";
 import { Top } from "components/Top";
 import { ServiceTopic } from "components/ServiceTopic";
 
+const serviceTopicsData = [
+  {
+    title: "メインアイデア",
+    description: "Riceboxは業者からその日消費期限が切れる食材を仕入れて、その日のうちに調理してデリバリーとテイクアウトで提供する",
+    imageName: "mainIdea.png"
+  },
+  {
+    title: "アプリとの融合",
+    description: "Riceboxアプリによってコンビニやスーパーで売れ残っている商品をアプリ内に掲載し消費者に購入を促進する",
+    imageName: "apps.png"
+  },
+  {
+    title: "マイボックス制度",
+    imageName: "mybox.png"
+  },
+  {
+    title: "関係性",
+    imageName: "relation.png"
+  }
+];
+
 const merits = [
   {
     title: "安価な商品",
@@ -38,25 +59,9 @@ export default function Service() {
 
       <Header />
       <Top title={Pharase} />
-      <ServiceTopic
-        title={"メインアイデア"}
-        description={
-          "Riceboxは業者からその日消費期限が切れる食材を仕入れて、その日のうちに調理してデリバリーとテイクアウトで提供する"
-        }
-        imageName={"mainIdea.png"}
-      />
-      <ServiceTopic
-        title={"アプリとの融合"}
-        description={
-          "Riceboxアプリによってコンビニやスーパーで売れ残っている商品をアプリ内に掲載し消費者に購入を促進する "
-        }
-        imageName={"apps.png"}
-      />
-      <ServiceTopic title={"マイボックス制度"} imageName={"mybox.png"} />
-      <ServiceTopic
-        title={"関係性"}
-        imageName={"relation.png"}
-          />
+      {serviceTopicsData.map((topic, index) => (
+        <ServiceTopic key={index} {...topic} />
+      ))}
       <ServiceTopic title={"Riceboxのメリット"} merits={merits} />
       <Footer />
     </>

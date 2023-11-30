@@ -13,6 +13,8 @@ export default function Home() {
   const serviceDescription = "Riceboxのサービスに\nついて詳しく紹介";
   const [isFinish, setisFinish] = useState(false);
   const [isVisible,setIsVisible] = useState(false);
+  const aboutProps = {page: "/about", imageName: "logo.jpg", title: "About", description:aboutDescription};
+  const serviceProps = {page: "/service", imageName: "app.jpg", title: "Service", description:serviceDescription};
 
   useEffect(() => {
     const handleScroll = () => {
@@ -36,9 +38,10 @@ export default function Home() {
     };
   }, []);
   return (
+    
     <>
       <Head>
-        <title>Ricebox</title>
+        <title>Ricebox ライスボックス</title>
         <meta name="description" content="無駄なく、より安く" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <script type="module" async src="https://unpkg.com/@splinetool/viewer@0.9.510/build/spline-viewer.js"></script>
@@ -51,23 +54,12 @@ export default function Home() {
         <div className={isFinish ? styles.cg2 : styles.cg}>
           <spline-viewer  url="https://prod.spline.design/YvhqUW18KupvgdcU/scene.splinecode"></spline-viewer>
           <div className={isVisible ? styles.topicsShow : styles.topics}>
-          <Topic
-           page={"/about"}
-            imageName={"logo.jpg"}
-            title={"About"}
-            description={aboutDescription}
-          />
+          <Topic {...aboutProps}/>
 
-         <Topic
-           page={"/service"}
-            imageName={"app.jpg"}
-            title={"Service"}
-             description={serviceDescription}
-         />
+         <Topic {...serviceProps}/>
         </div>
         </div>
-      </div>
-      
+      </div>    
      
       <Link href={"/news"}>
         <News />

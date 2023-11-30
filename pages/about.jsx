@@ -42,13 +42,7 @@ export default function About() {
       <Header />
       <Top title={phrase} description={description} />
       {topicsData.map((topic) => (
-        <AboutTopic
-          key={topic.index}
-          index={topic.index}
-          imageName={topic.imageName}
-          title={topic.title}
-          description={topic.description}
-        />
+        <AboutTopic {...topic}/>
       ))}
       
       <Footer />
