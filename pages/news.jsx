@@ -13,7 +13,7 @@ export default function Home() {
     <>
       <Head>
         <title>News</title>
-        <meta name="description" content="たくさんの賞を受賞させていただきました" />
+        <meta name="description" content="Riceboxはたくさんの賞を受賞させていただきました" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
