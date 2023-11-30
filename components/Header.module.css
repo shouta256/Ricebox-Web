@@ -64,13 +64,13 @@
   .logo {
     width: 100px; /* Adjust as needed */
     margin-left: 5px;
-    margin-right: 10px;
+    margin-right: 20px;
   }
 
   .links {
     margin-top: 10px;
     font-size: 20px;
-    margin-right: 20%;
+    margin-right: 15%;
   }
 
   .link {
@@ -84,6 +84,6 @@
 
 @media (max-width: 500px) {
   .link{
-    margin-right: 10%;
+    margin-right: 6%;
   }
 }
