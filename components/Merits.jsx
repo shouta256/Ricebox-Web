@@ -7,6 +7,7 @@ export const Merits = (props) => {
            <img
             className={styles.image}
             src={props.imageName}
+            alt={props.title}
             />
         </div>
         <p className={styles.description}>{props.description}</p>

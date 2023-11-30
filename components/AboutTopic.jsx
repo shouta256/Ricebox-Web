@@ -14,7 +14,7 @@ export const AboutTopic = (props) => {
       <div className={`${styles.body} ${isEven ? styles.even : styles.odd}`}>
         {isEven ? (
           <>
-            <img className={styles.image} src={props.imageName} alt="Image" />
+            <img className={styles.image} src={props.imageName} alt={props.title} />
             <div className={styles.text}>
               <h2 className={styles.title}>{props.title}</h2>
               <p className={styles.description}>{props.description}</p>
@@ -26,7 +26,7 @@ export const AboutTopic = (props) => {
               <h2 className={styles.title}>{props.title}</h2>
               <p className={styles.description}>{props.description}</p>
             </div>
-            <img className={styles.image} src={props.imageName} alt="Image" />
+            <img className={styles.image} src={props.imageName} alt={props.title} />
           </>
         )}
       </div>

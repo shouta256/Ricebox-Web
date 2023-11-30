@@ -26,6 +26,7 @@ export const ServiceTopic = (props) => {
               key={index}
               imageName={merit.imageName}
               description={merit.description}
+              title={merit.title}
             />
           ))}
       </div>
