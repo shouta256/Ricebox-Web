@@ -48,7 +48,9 @@ export default function Home() {
       </Head>
 
       <Header />
-      <div className={styles.blank}></div>
+      <div className={styles.blank}>
+        <h1>Ricebox</h1>
+      </div>
 
       <div className={styles.space}>
         <div className={isFinish ? styles.cg2 : styles.cg}>
