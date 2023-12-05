@@ -1,6 +1,5 @@
 import { Merits } from "components/Merits";
 import styles from "components/ServiceTopic.module.css";
-import { Topic } from "components/Topic";
 import { useInView } from 'react-intersection-observer';
 
 export const ServiceTopic = (props) => {
